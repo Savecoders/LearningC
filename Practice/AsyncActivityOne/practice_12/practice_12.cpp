@@ -32,28 +32,24 @@ int main(int argc, char const *argv[])
 
     case 2:
 
-        double area, lado;
+        double lado;
 
         cout << "Ingrese el lado del cuadrado: ";
         cin >> lado;
 
-        area = lado * lado;
-
-        cout << "El area del cuadrado es: " << area;
+        cout << "El area del cuadrado es: " << lado * lado;
         break;
 
     case 3:
 
-        double area, diagonal1, diagonal2;
+        double diagonal1, diagonal2;
         cout << "Ingrese el diagonal uno del rombo: ";
         cin >> diagonal1;
 
         cout << "Ingrese el diagonal dos del rombo: ";
         cin >> diagonal2;
 
-        area = (diagonal1 * diagonal2) / 2;
-
-        cout << "El area del rombo es: " << area;
+        cout << "El area del rombo es: " << ((diagonal1 * diagonal2) / 2);
         break;
     }
     return 0;

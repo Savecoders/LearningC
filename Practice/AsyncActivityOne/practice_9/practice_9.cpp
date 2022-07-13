@@ -36,13 +36,13 @@ int main(int argc, char const *argv[])
         precio = (100 * 0.25) + (100 * 0.35 ) + + (exeso * 0.45 );
 
     }
-    cout<<"*******************************************";
-    cout<<"*                  Factura                *";
-    cout<<"*******************************************";
-    cout<<"Nombre del usuario: "<<nombre;
-    cout<<"Lectura anterior: "<<lectura_anterior;
-    cout<<"Lectura actual: "<<lectura_actual;
-    cout<<"Valor total a pagar es de: "<<precio;
+    cout<<"*******************************************"<<"\n";
+    cout<<"*                  Factura                *"<<"\n";
+    cout<<"*******************************************"<<"\n";
+    cout<<"Nombre del usuario: "<<nombre<<"\n";
+    cout<<"Lectura anterior: "<<lectura_anterior<<"\n";
+    cout<<"Lectura actual: "<<lectura_actual<<"\n";
+    cout<<"Valor total a pagar es de: "<<precio<<"\n";
 
 
     /* code */

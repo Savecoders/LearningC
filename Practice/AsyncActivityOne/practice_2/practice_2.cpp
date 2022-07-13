@@ -16,7 +16,7 @@ int main(int argc, char const *argv[]){
 
     intensidad = voltaje/resistencia;
 
-    cout<<"La resistencia es de: "<<resistencia;
+    cout<<"La intensidad es de: "<<intensidad;
 
     return 0;
 }
