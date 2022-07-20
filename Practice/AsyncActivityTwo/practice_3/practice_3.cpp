@@ -10,10 +10,10 @@ int main(int argc, char const *argv[])
     for (int count = 2;count <=100; count+=2)
     {
 
-        cout<<"Num: "<<count<<"\n";
+        cout<<"Num: "<<count<<" ";
         count_impares += count;
     
     }
-    cout<<"La suma de los numeros impares, es : "<<count_impares;
+    cout<<"La suma de los numeros pares, es : "<<count_impares;
     return 0;
 }

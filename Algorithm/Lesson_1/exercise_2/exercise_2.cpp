@@ -48,6 +48,7 @@ int main(int argc, char const *argv[]){
             result = 0;
             break;
     }
-
+    cout<<"El resultado de la operacion es: "<<result;
+    
     return 0;
 }

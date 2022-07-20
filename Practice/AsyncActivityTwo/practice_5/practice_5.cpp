@@ -22,13 +22,11 @@ int main(int argc, char const *argv[])
             sueldo = horas * valor_hora;
         }else {
             horas_extras = horas - 40;
-            sueldo =  ((horas - horas_extras )* valor_hora) + (horas_extras * (valor_hora + (valor_hora * 0.5)));
+            sueldo = (40* valor_hora) + (horas_extras * (valor_hora + (valor_hora * 0.5)));
         }
 
         cout<<"su sueldo es: "<<sueldo;
     }
     
-    
-    /* code */
     return 0;
 }

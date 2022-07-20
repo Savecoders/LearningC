@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 
     sueldo_total = sueldo + (sueldo*incremento);
 
-    cout << "Tuvo un incremento de:"<<incremento<<"sueldo es ahora es de: "<<sueldo_total;
+    cout << "Tuvo un incremento de:"<<incremento<<" sueldo es ahora es de: "<<sueldo_total;
     
     return 0;
 }
