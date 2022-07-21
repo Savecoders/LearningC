@@ -14,6 +14,7 @@ int main(){
     }
     
     for (int i = 0; i < 26; i++){
+        
         for (int index = 0; index < 26-i; index++){
             cout<<ABC[index];
         }

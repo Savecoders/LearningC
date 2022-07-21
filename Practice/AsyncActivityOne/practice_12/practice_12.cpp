@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     cout << " 1: Sacar el area de rectangulo.\n";
     cout << " 2: Sacar el area del cuadrado.\n";
     cout << " 4: Sacar el area del rombo.\n";
-    cout << "Leccione la tarrifa que desee:";
+    cout << "Leccione la opcion que desee:";
     cin >> menu;
 
     switch (menu)
